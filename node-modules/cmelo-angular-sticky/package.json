@@ -1,0 +1,48 @@
+{
+  "_from": "cmelo-angular-sticky",
+  "_id": "cmelo-angular-sticky@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-pKzZUV0BSYHrAGNJ1TEaRiyeTIg=",
+  "_location": "/cmelo-angular-sticky",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cmelo-angular-sticky",
+    "name": "cmelo-angular-sticky",
+    "escapedName": "cmelo-angular-sticky",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cmelo-angular-sticky/-/cmelo-angular-sticky-1.0.2.tgz",
+  "_shasum": "a4acd9515d014981eb006349d5311a462c9e4c88",
+  "_spec": "cmelo-angular-sticky",
+  "_where": "C:\\Users\\Maryna\\Desktop\\course\\certificates of courses\\sticky-header",
+  "author": {
+    "name": "cmelo"
+  },
+  "bugs": {
+    "url": "https://github.com/cmelo/angular-sticky/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Position sticky for Angular",
+  "homepage": "https://github.com/cmelo/angular-sticky#readme",
+  "keywords": [
+    "sticky",
+    "angular"
+  ],
+  "license": "MIT",
+  "main": "cmelo-sticky.js",
+  "name": "cmelo-angular-sticky",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmelo/angular-sticky.git"
+  },
+  "version": "1.0.2"
+}

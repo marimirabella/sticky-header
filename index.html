@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="stickyHeader">
+	<head>
+		<title>Sticky header</title> 
+		<meta charset="utf-8">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Core css file -->
+		<link rel="stylesheet" href="./css/styles.css">
+
+	</head>
+	<body ng-controller="stickyHeaderController" cmelo-sticky>
+		
+		<!-- header start -->
+		<!-- ================== -->
+		<header>
+			<h1>Sticky Header</h1>
+		</header>
+		<!-- header end -->
+		<!-- ================== -->
+		
+		<!-- Items start -->
+		<!-- ================== -->
+		<section>
+			<div ng-repeat="item in items">
+				<h2 cmelo-sticky-top>Header {{item}}</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed nisi lectus. Aenean ornare elit id egestas pretium. Quisque sed augue vel nisl efficitur dictum eu et enim. Maecenas risus ante, ornare ullamcorper suscipit at, dapibus et tellus. Donec elit mi, sodales eu lacus vitae, laoreet laoreet enim. Nunc elementum nulla nec eleifend semper. Curabitur leo urna, egestas in sapien at, placerat scelerisque massa. Pellentesque elementum mauris id sapien scelerisque, eget cursus nunc aliquam. Cras dictum at dui ac fermentum. Ut non efficitur orci. Mauris ornare lectus maximus quam imperdiet placerat. Pellentesque tincidunt urna nec scelerisque pretium. Praesent vestibulum ac massa eget viverra. Integer tincidunt pulvinar mollis.</p>
+			</div>
+		</section>
+		<!-- Items end -->
+		<!-- ================== -->
+		
+		<!-- Angular JS -->
+		<script src="./node-modules/angular/angular.min.js"></script>
+
+		<!-- Angular app.js -->
+		<script type="text/javascript" src="./js/app.js"></script>
+
+		<!-- Cmelo-angular-sticky JS file -->
+		<script type="text/javascript" src="./node-modules/cmelo-angular-sticky/cmelo-sticky.js"></script>
+
+	</body>
+</html>

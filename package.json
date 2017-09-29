@@ -1,0 +1,15 @@
+{
+  "name": "Sticky Header",
+  "description": "using AngularJS",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "1.6.6",
+    "cmelo-angular-sticky": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marimirabella/marimirabella.github.io.git"
+  },
+  "author": "Marina Karpovets",
+  "homepage": "http://marimirabella.github.io/"
+}
